@@ -1,0 +1,58 @@
+@media print {
+		#container:before {content: "FRONT-END WEB DESIGNER"; font-size: 55px;}
+		#container {position: absolute !important; margin-top: 20px; width: 100%; top: 70px !important;}
+		a:after {content: " (" attr(href) ")";}
+		* {height: initial !important;}
+		#ie #my-projects {float: none; margin-top: 0px;}
+		#firefox #my-projects {float: none; margin-top: 0px;}
+	/* Remove unessesary Elements */
+		.hamburger,
+		#sub-menu,
+		#sidebar,
+		#legend,
+		.list-merge,
+		#project-list,
+		.proj-description ul,
+		#profile,
+		.proj-img,
+		#home,
+		form
+		{display: none !important;}
+	/* Header */
+		header {margin-top: 20px; border-bottom: 5px double #000;}
+		header p:nth-of-type(1) {margin-top: -42px; text-align: center;}
+		header p:nth-of-type(2) {margin-top: -36px; text-align: right;}
+		header a {text-decoration: none;}
+		header a:after {content: " "; }
+	/* Skills */
+		#resume {text-decoration: none;}
+		#resume:after {content: none;}
+		#skills-list > p {text-align: center; font-size: 20px;}
+		#skills hr {border: 3px solid #000; width: 100%; float: left;}
+		.skills-group {margin: 10px 0; width: 40%; float: left;}
+		.familiar span:after {content: " - Familiar"}
+		.experienced span:after {content: " - Experienced"}
+		.advance span:after {content: " - Advance"}
+	/* Projects */
+		#projects {float: left; }
+		#projects-text {page-break-after: always;}
+		#my-projects {float: left; margin-top: 320px;}
+		.proj-description {display: block; width: 47%; height: initial !important;}
+		.proj-description:nth-of-type(odd) {float: left;} 
+		.proj-description:nth-of-type(even) {float: right;} 
+		.proj-text h2 {margin: 0;}
+	/* About */
+		#about {width: 45%;}
+		#about {position: static !important; float: left; left: 0; top: 0; height: initial !important;}
+	/* Contact */
+		#contact {position: static; float: right; width: 50%; height: initial;}
+		#contact-text p a {text-decoration: none;}
+		#contact-text p a:after {content: " "; }
+		#facebook:after {content: "Facebook";  font-weight: bold;}
+		#twitter:after {content: "Twitter";  font-weight: bold;}
+		#googleplus:after {content: "Google+";  font-weight: bold;}
+		#linkedin:after {content: "LinkedIn";  font-weight: bold;}
+		#social-contain div {margin-top: 5px !important; }
+		#social-contain a {text-decoration: none}
+	}
+

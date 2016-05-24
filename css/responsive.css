@@ -1,0 +1,143 @@
+@media only screen and (min-width: 1100px) and (max-width: 1500px) {
+	section {width: 100%; padding-top: 50px;}
+	#sideblock {display: none;}
+	header h2 {margin-right: 5%;}
+	header p {margin: 0;  font-size: 23px; float: initial;}
+	#container {width: 90%; margin-left: 5%}
+	#project-list li {width: 45%;}
+	#about-text {width: 60%;}
+	}
+
+@media only screen and (min-width: 900px) and (max-width: 1100px) {
+	section {width: 100%;}
+	#sideblock {display: none;}
+	header h2 {margin-right: 5%;}
+	header p {margin: 0;  font-size: 23px; float: initial;}
+	#container {width: 90%; margin-left: 5%}
+	.section-title {font-size: 65px;}
+	#home-title h1 {font-size: 60px;}
+	#project-list li {width: 45%;}
+	#about-text {width: 50%;}
+	#about-text p {font-size: 25px;}
+	#profile-contain {left: 53%;}
+	#contact-text {font-size: 25px;}
+	input, textarea {width: 100%;}
+	}
+	
+@media only screen and (min-width: 700px) and (max-width: 900px) {
+	#sub-menu-links {margin-top: 150px;}
+	.contents h2 {font-size: 3em; }
+	section {width: 100%;}
+	#sideblock {display: none;}
+	header h2 {margin-right: 4%; padding-top: 10px; font-size: 30px;}
+	header p {margin: 0;  font-size: 23px; float: initial;}
+	#container {width: 90%; margin-left: 5%}
+	.section-title {font-size: 65px;}
+	#home-title {padding: 20px 0;}
+	#home-title h1 {font-size: 55px;}
+	#skills-text {width: 100%;}
+	#skills-list {width: 100%;}
+	.list-merge {display: none;}
+	.skills-group li {width: 40%; float: left;}
+	#list-break {float: left;}
+	#projects-text {float: left; width: 100%; }
+	#my-projects {width: 100%; }
+	#projects-text p {font-size: 25px;}
+	#project-list {position: relative;}
+	#project-list li {width: 45%;}
+	#about-text {width: 100%;}
+	#about-text p {font-size: 25px;}
+	#profile-contain {display: none;}
+	#contact {margin-bottom: 100px;}
+	#contact-text {width: 100%; font-size: 25px; height: initial;}
+	input, textarea {width: 100%;}
+	form {padding-top: 50px; width: 90%; height: initial;}
+	#submit {float: right;}
+	}
+
+@media only screen and (min-width: 500px) and (max-width: 700px) {
+	#sub-menu-links {margin: 150px auto 0; width: 400px;}
+	.contents h2 {font-size: 2.5em; }
+	section {width: 100%;}
+	#sideblock {display: none;}
+	header h2 {margin-left: 25%; padding-top: 10px; font-size: 30px;}
+	header p {display: none;}
+	#container {width: 90%; margin-left: 5%}
+	.section-title {font-size: 65px;}
+	#home-title {padding: 20px 0;}
+	#home-title h1 {font-size: 55px;}
+	#skills-text {width: 100%;}
+	#skills-text p {font-size: 20px; margin-bottom: 20px;}
+	#skills-list {width: 100%; margin-left: 0%;}
+	.list-merge {display: none;}
+	.skills-group li {margin-left: 20px; font-size: 20px; width: 45%; float: left;}
+	#list-break {float: left;}
+	#projects-text {float: left; width: 100%; }
+	#my-projects {width: 100%; }
+	#projects-text p {font-size: 25px;}
+	#project-list {position: relative;}
+	#project-list li {width: 45%;}
+	#about-text {width: 100%;}
+	#about-text p {font-size: 25px;}
+	#profile-contain {display: none;}
+	#contact {margin-bottom: 100px;}
+	#contact-text {width: 100%; font-size: 25px; height: initial;}
+	input, textarea {width: 100%;}
+	form {padding-top: 50px; width: 90%; height: initial;}
+	#submit {float: right;}
+	}
+
+@media only screen and (min-width: 100px) and (max-width: 500px) {
+	#sub-menu-links {margin: 150px auto 0; width: 280px;}
+	.contents h2 {font-size: 2em; }
+	.contents span {font-size: 1.5em;}
+	section {width: 100%;}
+	#sideblock {display: none;}
+	header h2 {margin-left: 27%; padding-top: 18px; font-size: 20px;}
+	header p {display: none;}
+	#container {width: 90%; margin-left: 4%}
+	.section-title {font-size: 50px;}
+	#home-title {top: 27%; padding: 20px 0;}
+	#home-title h1 {font-size: 40px;}
+	#home-traits {width: 100%; }
+	#home-traits h2 {font-size: 35px; padding-top: 25px; height: 65px;}
+
+	#skills-text {width: 90%;}
+	#skills-text p {font-size: 20px; margin-bottom: 20px;}
+	#skills-list {width: 100%; margin-left: 0%;}
+	.list-merge {display: none;}
+	.skills-group li {margin-left: 20px; font-size: 20px; width: 100%; float: left;}
+	#list-break {float: left;}
+	#projects-text {float: left; width: 100%; }
+	#my-projects {width: 100%; }
+	#proj-help img {width: 100%;}
+	#projects-text p {font-size: 20px;}
+	#project-list {position: relative;}
+	#project-list li {width: 90%; padding: 5px 10px; margin-bottom: 10px;}
+	#project-list li br {display: none;}
+	.proj-img {width: 96%; height: 120px; background-size: cover;}
+	.proj-text {float: left; width: 96%; margin: 20px 2%;}
+	#about-text {width: 100%;}
+	#about-text p {font-size: 20px;}
+	#profile-contain {display: none;}
+	#social-contain {width: 190px; height: 180px;}
+	#contact {margin-bottom: 100px;}
+	#contact-text {width: 100%; height: initial;}
+	#contact-text p {font-size: 20px;}
+	input, textarea {width: 100%;}
+	form {padding-top: 50px; width: 90%; height: initial;}
+	#submit {float: right;}
+	}
+
+@media only screen and (min-height: 100px) and (max-height: 800px) {
+	.contents hr {display: none;}
+	.contents span {display: none;}
+	#home-title {top: 25%;}
+	#home-title h1 {font-size: 30px;}
+	#home-traits {top: 55%; }
+	#home-traits h2 {font-size: 35px; padding-top: 25px; height: 65px;}
+	}
+	
+@media only screen and (min-height: 100px) and (max-height: 600px) {
+	#home-traits {width: 100%;}
+	}
